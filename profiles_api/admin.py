@@ -5,3 +5,4 @@ from profiles_api import models
 # To show/enable in Django admin when new one is created
 
 admin.site.register(models.UserProfile)
+admin.site.register(models.ProfileFeedItem)
